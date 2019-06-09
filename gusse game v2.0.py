@@ -1,10 +1,10 @@
 import random
 
-number = random.randint(1, 99)
+number = random.randint(1, 9)
 print("welcome to the gusse game ")
 print("You have three chances ")
 print("try your luck")
-for chances in range(10):
+for chances in range(3):
     number2 = int(input('enter your number : '))
     if number2 == number:
         print(f"you win!!! in {chances} chsnces")
